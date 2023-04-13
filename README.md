@@ -1,4 +1,4 @@
-# Hack.Diversity Tech Dive Template
+# Stock Watchlist CS-241
 
 ## Getting Started
 
