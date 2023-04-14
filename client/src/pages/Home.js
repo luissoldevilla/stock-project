@@ -13,7 +13,7 @@ function Home() {
           <img src="https://res.cloudinary.com/amunoali/image/upload/v1677763058/medbar-removebg-preview_nfkv2p.png" className="image" alt="Bootstrap Themes"  />
         </div>
         <div className="col-lg-6 ">
-          <h1 className="display-5 "> <strong class=" fw-bold" >MedBay </strong> </h1>
+          <h1 className="display-5 "> <strong class=" fw-bold" >StockWatchi </strong> </h1>
           <p className="lead"> The number one Stock Watch Platform</p>
         
           <div className="btn btn-header btn-primary">
