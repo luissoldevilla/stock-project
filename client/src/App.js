@@ -1,18 +1,21 @@
+import React from 'react';
+import { Routes, Route, useLocation, Navigate} from "react-router-dom";
 import './App.css';
 
-import { useApi } from './hooks/use-api';
+// pages
+import Home from './pages/Home';
+
+// import { useApi } from './hooks/use-api';
 
 function App() {
-  const { response } = useApi();
+  // const { response } = useApi();
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          {response}
-        </p>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
