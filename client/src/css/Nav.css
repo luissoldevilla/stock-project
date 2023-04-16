@@ -1,0 +1,122 @@
+nav > ul >  a {
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+
+nav > ul {
+    
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#navLogo {
+    padding: 0;
+    margin: 0;
+    width: 55px;
+    height: 50px;
+}
+
+#username-box {
+    color: white;
+    font-weight: bold;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    min-width: 150px;
+
+}
+
+#username{
+    margin-right: 0.5rem;
+}
+
+#a {
+    font-size: 20pt;
+}
+
+.dropDown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 100%;
+    min-width: 100px;
+}
+.dropDown div {
+    width: 100%;
+    opacity: 1;
+}
+
+.dropDown.active {
+    opacity: 1;
+    background-color: #999999;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.dropDown.inactive {
+    opacity: 0;
+}
+
+.dropDownItem, .dropDownItem2{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.dropDownItem #icon, .dropDownItem2 #icon {
+    margin-right: 1rem;
+}
+
+#ico {
+    font-size: 20pt;
+}
+
+.hol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #99999931;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.hol.active{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dropDownItem, .dropDownItem2 {
+    padding: 0.5rem 1rem ;
+}
+
+.dropDownItem:hover {
+    background-color: rgb(139, 139, 139);
+}
+
+.dropDownItem2:hover {
+    background-color: rgb(139, 139, 139);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}

@@ -19,3 +19,19 @@
 .App-link {
   color: #61dafb;
 }
+
+
+
+input.form-control, h3, label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+	height: 100%;
+
+  background: linear-gradient(10deg, #4f4f4f, #2c7363);
+  background-attachment:fixed;
+}
