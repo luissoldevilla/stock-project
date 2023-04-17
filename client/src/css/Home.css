@@ -19,6 +19,11 @@ p.lead{
     background-color: transparent;
 }
 
+.btn-primary:hover {
+    background-color: #0CDAAD;
+    border-color: #0CDAAD;
+}
+
 div.col-lg-6{
     text-align: center;
 }
