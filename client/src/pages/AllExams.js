@@ -4,7 +4,6 @@ import 'react-bootstrap';
 import axios from 'axios'
 import { Link } from "react-router-dom";
 import { useState, useEffect,  } from 'react';
-import "../css/Patient.css";
 import "../css/ExamPage.css"
 import Footer from '../components/Footer'
 import tableSort from '../components/SortedTable';
@@ -53,9 +52,6 @@ function AllExams(){
         let sort = tableSort(props, exam, up_down);
         setList(sort);
         switch(props) {
-            case "byPatientId":
-                setUp_Down({byPatientId: !up_down.byPatientId});
-                break;
             case "byExamId":
                 setUp_Down({byExamId: !up_down.byExamId});
                 break;
@@ -88,15 +84,10 @@ function AllExams(){
 
 <div className='container '>
   
-<h1>Exams</h1>
+<h1>Stock List</h1>
     <table  className='container '>
         <thead>
             <tr className='headButt'>
-            <th>
-              <button className ="headButton" onClick={() => {handleSort("byPatientId")}}>
-                Patient ID
-              </button>
-            </th>
             <th>
               <button className="headButton" onClick={() => {handleSort("byExamId")}}>
                 Exam ID
@@ -131,7 +122,6 @@ function AllExams(){
        
         <tbody>
           <tr>
-            <th scope="row"> <Link to={`/patient/${exams.patientId}`}>  { exams.patientId} </Link> </th>
             <td> <Link to={`/exams/${exams._id}`}>  { exams.examId }</Link>  </td>
             <td> <img src={ exams.imageURL }  alt="" /></td>
             <td> { exams.keyFindings } </td>

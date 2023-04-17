@@ -4,7 +4,6 @@ import 'react-bootstrap';
 import axios from 'axios'
 import { useParams } from "react-router-dom";
 import { useState, useEffect,  } from 'react';
-import "../css/PatientItem.css"
 import "../css/Exam.css"
 import Footer from '../components/Footer'
 const  API_URL = "https://coderyders-api.onrender.com"

@@ -4,7 +4,6 @@ import './App.css';
 
 // pages
 import CreateForm from './pages/CreateForm';
-import { Patient, Patients } from './pages/Patient';
 import Home from './pages/Home';
 import ExamSingle  from './pages/ExamSingle';
 import ExamAdmin from './pages/ExamAdmin';
@@ -43,8 +42,6 @@ function App() {
      <Route path="/admin" element={user ? <ExamAdmin />: <Navigate to="/login"/>} />
      <Route path="/create" element={<CreateForm />} />
      <Route path="/exams/:id" element={<ExamSingle />} />
-     <Route path="/patient/:id" element={<Patient />} />
-     <Route path="/patient" element={user ? <Patients />: <Navigate to="/login"/>} />
      <Route path="/exams/:id/update" element={<UpdateExam />} />
       
     </Routes>

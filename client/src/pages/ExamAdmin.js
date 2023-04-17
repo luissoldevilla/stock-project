@@ -1,7 +1,6 @@
 import 'react-bootstrap'
 import {useState} from 'react'
 import {useApi} from "../hooks/use-api";
-import "../css/Patient.css";
 import {Link, useNavigate} from "react-router-dom";
 import "../css/ExamAdmin.css"
 import axios from 'axios';

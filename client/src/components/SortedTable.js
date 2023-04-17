@@ -1,4 +1,3 @@
-import "../css/Patient.css";
 import "../css/ExamPage.css"
 import 'react-bootstrap';
 

@@ -24,9 +24,6 @@ export const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link to="/patient">Patients</Link>
-        </li>
-        <li>
           <Link to="/exams">Exams</Link>
         </li>
         <li>
