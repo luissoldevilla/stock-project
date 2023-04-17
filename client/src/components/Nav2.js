@@ -5,7 +5,7 @@ export const Nav2 = (props) => {
   return (
     <nav>
         <ul>
-            <li><Link to = "/"><img id = "navLogo" src="favicon.ico" alt="" srcset="" /></Link></li>
+            <li><Link to = "/"><img id = "navLogo" src="favicon2.png" alt="" srcset="" /></Link></li>
             <li><Link to = "/login">Login</Link></li>
             <li><Link to = "/register">Register</Link></li>
         </ul>

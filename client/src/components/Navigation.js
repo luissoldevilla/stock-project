@@ -20,7 +20,7 @@ export const Nav = () => {
       <ul>
         <li>
           <Link to="/exams">
-            <img id="navLogo" src="favicon.ico" alt="" srcset="" />
+            <img id="navLogo" src="favicon2.png" alt="" srcset="" />
           </Link>
         </li>
         <li>
