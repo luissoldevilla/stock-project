@@ -18,14 +18,14 @@ function Home(){
         <img src={logo} className="image" alt="Bootstrap Themes"  />
       </div>
       <div className="col-lg-6 ">
-        <h1 className="display-5 "> <strong class=" fw-bold" >Stock Watchlist </strong> </h1>
-        <p className="lead"> Your number ONE resource to access your patient record during COVID-19.</p>
+        <h1 className="display-5 "> <strong class=" fw-bold" >StockWatchi </strong> </h1>
+        <p className="lead"> Your number ONE resource to access your best stocks picks!</p>
       
         <div className="btn btn-header btn-primary">
    
 
           <Link to="/register" type="button" className="btn btn-header btn-lg mt-3">
-            Register for MedBay
+            Register for StockWachi
           </Link>
         </div>
         

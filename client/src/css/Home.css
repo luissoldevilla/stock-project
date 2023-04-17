@@ -13,6 +13,12 @@ p.lead{
     margin: 3rem 5rem;
     color: powderblue;
 }
+
+.btn-primary {
+    border-color: #0CDAAD;
+    background-color: transparent;
+}
+
 div.col-lg-6{
     text-align: center;
 }
